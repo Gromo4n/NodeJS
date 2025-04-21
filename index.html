@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft — История, Геймплей, Мобы</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="theme-toggle" onclick="document.body.classList.toggle('light-theme')">Сменить тему</button>
+
+<header>
+  <h1><span class="minecraft-font">Minecraft</span>: Всё о любимой игре</h1>
+</header>
+
+<nav>
+  <a href="#history">История</a>
+  <a href="#gameplay">Геймплей</a>
+  <a href="#mobs">Мобы</a>
+  <a href="#building">Строительство</a>
+  <a href="#gallery">Галерея</a>
+</nav>
+
+<main>
+  <section id="history">
+    <h2>🌍 История <span class="minecraft-font">Minecraft</span></h2>
+    <p><span class="minecraft-font">Minecraft</span> был создан в 2009 году Маркусом Перссоном (Notch). Игра позволяла строить миры из блоков и быстро стала популярной. В 2011 году был официальный релиз, а в 2014 году Mojang купили Microsoft. Игра обрела культовый статус и активно развивается до сих пор.</p>
+  </section>
+
+  <section id="gameplay">
+    <h2>🎮 Геймплей</h2>
+    <ul>
+      <li>Исследование мира</li>
+      <li>Добыча ресурсов</li>
+      <li>Крафт предметов и строительство</li>
+      <li>Битвы с мобами</li>
+      <li>Игровые режимы: Выживание, Творчество, Хардкор</li>
+    </ul>
+  </section>
+
+  <section id="mobs">
+    <h2>👾 Мобы в <span class="minecraft-font">Minecraft</span></h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Название</th>
+          <th>Тип</th>
+          <th>Агрессивность</th>
+          <th>Где встречается</th>
+          <th>Издаваемые звуки</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr> <td>Зомби</td><td>Враждебный</td><td>Да</td><td>Ночью, в пещерах</td>
+          <td><audio controls>
+          <source src="./audios/inecraft_zombie_.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td> </tr>
+        <tr> <td>Крипер</td><td>Враждебный</td><td>Да</td><td>В тени, ночью</td><td><audio controls>
+          <source src="./audios/creeper.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td> </tr>
+        <tr><td>Эндермен</td><td>Нейтральный</td><td>Если атакован</td><td>Мир, Край</td> <td><audio controls>
+          <source src="./audios/enderman.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td></tr>
+        <tr><td>Корова</td><td>Мирный</td><td>Нет</td><td>Луга, равнины</td> <td><audio controls>
+          <source src="./audios/cow.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td></tr>
+        <tr><td>Скелет</td><td>Враждебный</td><td>Да</td><td>Ночью, в пещерах</td><td><audio controls>
+          <source src="./audios/skeleton.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td></tr>
+        <tr><td>Эндер-дракон</td><td>Босс</td><td>Да</td><td>Край</td> <td><audio controls>
+          <source src="./audios/ender_dragon.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td></tr>
+        <tr><td>Житель</td><td>Мирный</td><td>Нет</td><td>Деревни</td> <td><audio controls>
+          <source src="./audios/villager.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Добавленная секция о строительстве -->
+<section id="building">
+    <h2>🏗️ Строительство в <span class="minecraft-font">Minecraft</span></h2>
+    <p>Строительство - одна из ключевых механик Minecraft, позволяющая игрокам реализовывать самые смелые архитектурные проекты. От простой хижины до сложных механизированных сооружений - возможности ограничены только вашей фантазией!</p>
+    
+    <h3>🔨 Основные принципы строительства:</h3>
+    <ul>
+      <li>Используйте различные материалы для текстуры (камень, дерево, стекло)</li>
+      <li>Экспериментируйте с освещением (факелы, светокамни, лампы)</li>
+      <li>Создавайте объемные формы с помощью лестниц и плит</li>
+      <li>Используйте воду и лаву для декоративных элементов</li>
+    </ul>
+  
+    <h3>🏛️ Популярные стили строительства:</h3>
+    <table>
+      <tr>
+        <th>Стиль</th>
+        <th>Материалы</th>
+        <th>Особенности</th>
+      </tr>
+      <tr><td>Средневековый</td><td>Камень, дерево, факелы</td><td>Башни, зубчатые стены, подъемные мосты</td></tr>
+      <tr><td>Современный</td><td>Стекло, бетон, кварц</td><td>Чистые линии, большие окна, минимализм</td></tr>
+      <tr><td>Фэнтези</td><td>Пурпурные блоки, энд-камень</td><td>Парящие острова, магические символы</td></tr>
+      <tr><td>Подземный</td><td>Камень, лава, грибницы</td><td>Лабиринты, скрытые комнаты, ловушки</td></tr>
+    </table>  
+  </section>
+
+  <section id="gallery">
+    <h2>🖼️ Галерея</h2>
+    <div class="gallery">
+      <img src="images/1.png">
+      <img src="images/2.png">
+      <img src="images/3.png">
+      <img src="images/4.png">
+    </div>
+  </section>
+
+  <section id="mods">
+    <h2>🧩 Популярные моды <span class="minecraft-font">Minecraft</span></h2>
+    <ul>
+      <li><strong>OptiFine</strong> — улучшает графику, добавляет поддержку шейдеров и повышает FPS.</li>
+      <li><strong>IndustrialCraft</strong> — вводит технологии, генераторы и механизмы.</li>
+      <li><strong>Biomes O' Plenty</strong> — добавляет десятки новых биомов и красивую генерацию мира.</li>
+      <li><strong>JourneyMap</strong> — мини-карта и отображение карты мира в браузере.</li>
+      <li><strong>Thaumcraft</strong> — магия и исследования в Minecraft.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 <span class="minecraft-font">Minecraft</span> Fan Page | Сделано с любовью к игре 💚</p>
+</footer>
+
+</body>
+</html>
